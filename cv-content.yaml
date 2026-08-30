@@ -123,5 +123,5 @@ cv:
 
 settings:
   render_command:
-    design: render-cv-design.yaml
-    locale: render-cv-locale.yaml
+    design: cv-design.yaml
+    locale: cv-locale.yaml

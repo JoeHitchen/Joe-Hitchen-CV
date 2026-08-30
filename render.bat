@@ -11,8 +11,8 @@ if not exist "%RENDERCV%" (
 )
 
 set "CONTENT_YAML=%~1"
-if "%CONTENT_YAML%"=="" set "CONTENT_YAML=render-cv-content.yaml"
+if "%CONTENT_YAML%"=="" set "CONTENT_YAML=cv-content.yaml"
 
-"%RENDERCV%" render "%CONTENT_YAML%" --settings "%SCRIPT_DIR%render-cv-settings.yaml"
+"%RENDERCV%" render "%CONTENT_YAML%" --settings "%SCRIPT_DIR%cv-settings.yaml"
 
 endlocal

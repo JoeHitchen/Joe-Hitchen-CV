@@ -41,7 +41,7 @@ You need: the main content YAML, and optionally separate `locale`,
 `design`, and `rendercv_settings` YAML files if the user's project splits
 them out (RenderCV supports this via `--locale-catalog`, `--design`,
 `--settings` flags -- check the CV folder for files like
-`render-cv-content.yaml`, `render-cv-locale.yaml`, etc., alongside a single
+`cv-content.yaml`, `cv-locale.yaml`, etc., alongside a single
 combined YAML as the more common alternative). Also look for a theme
 override folder next to the YAML (named after the theme, e.g. `classic/`)
 -- that's where the two-column wrapper lives.
