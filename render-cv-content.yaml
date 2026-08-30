@@ -1,0 +1,122 @@
+cv:
+  name: "Joe Hitchen"
+  headline: "Chief Technical Officer & Head of Engineering"
+  location: "Oxford, UK"
+  email: "hitchenjoe@gmail.com"
+  phone: "+44 7812 457823"
+  social_networks:
+    - network: "LinkedIn"
+      username: "joehitchen"
+    - network: "GitHub"
+      username: "JoeHitchen"
+  custom_connections:
+    - placeholder: "bitbucket.org/JoeHitchen"
+      url: "https://bitbucket.org/JoeHitchen"
+      fontawesome_icon: "bitbucket"
+
+  sections:
+    summary:
+      - "Chief Technical Officer of a small start-up looking for opportunities to lead & grow well-operating technical teams while designing cutting edge systems.
+      Wide ranging technical skills with particular strength in Python & cloud infrastructure, built upon a background in geophysical research, a drive to solve problems, and experience in leadership roles."
+
+    experience:
+      - company: "Xtract360"
+        position: "Chief Technical Officer"
+        start_date: "2018-08"
+        end_date: "present"
+        location: "Remote"
+        summary: "_A small insurance technology start-up working on claims reconstruction that formed in 2017 and saw its first commercial success in early 2020._
+          _Our systems now handle 15,000 claims monthly across 35 global clients, and capture approximately 45% of the Irish motor insurance market by claim volume._"
+        highlights:
+          - "Architected, secured, and operationalised the company's sole commercial asset."
+          - "Built & led a team of nine from scratch across five functions (development, data science, product & design, quality assurance, and technical operations), creating a loyal team culture with only one staff departure after their first anniversary over seven years."
+          - "Created & drove the company's technical recruitment plan, including the simultaneous recruitment for four roles in December 2023 & January 2024, allowing us to replace external contractors and save £14,000/mo."
+          - "Unblocked a £40,000/mo contract with a global top-three vehicle rental group by preparing technical & internal IT operations for SOC 2 audit within three months."
+          - "Migrated platform infrastructure from AWS to Azure, to enable our inclusion in the Microsoft Accelerator Program, while simultaneously defining the stack in Terraform to allow robust customer data segregation through the deployment of multiple identical environments."
+          - "Designed & built an asynchronous task worker stack that monitors 17,000 connected devices every hour."
+          - "Implemented a product roadmap & planning function which delivered six flagship features annually, while maintaining the operational flexibility to handle urgent customer onboarding demands and continuous code/product improvement work."
+          - "Improved developer productivity tracking & timesheet data quality by creating an AI tool chain which examines Jira activity and prompts developers for time allocations before feeding the data to sprint burndown & timesheet records."
+          - "Completed the technical onboarding, platform configuration, and integration set-up for ten customers within two months, following the surprise departure of our Head of Onboarding."
+          - "Created technical and operational processes for managing & deploying platform changes automatically and eliminating recurring manual errors, at one point handling fourteen deployments in a week to clear an onboarding backlog."
+
+      - company: "Xtract360"
+        position: "Data Scientist"
+        start_date: "2017-12"
+        end_date: "2018-08"
+        location: "Remote"
+        highlights:
+          - "Built on exploratory academic consultancy work to develop patented crash detection algorithms that still form the core of our crash detection processing to this day."
+          - "Converted trial implementations from R to Python, NumPy, & SciPy to enable integration with web systems."
+
+    education:
+      - institution: "Oxford University"
+        area: "Atmospheric Physics"
+        degree: "PhD"
+        start_date: "2013-10"
+        end_date: "2017-10"
+        summary: "_Title: Understanding the growth and convective instability of mushy
+          layers, with application to young sea ice_"
+        highlights:
+          - "Planned & executed a 4-year research project."
+          - "Developed advanced numerical simulations in Python & Matlab to corroborate parallel theoretical analysis."
+
+      - institution: "Oxford University"
+        area: "Physics"
+        degree: "MSc"
+        start_date: "2009-10"
+        end_date: "2013-06"
+
+    additional_experience:
+      - company: "Various"
+        position: "Rowing Coach"
+        start_date: "2018-01"
+        end_date: "present"
+        location: "Oxford, UK"
+        summary: "_Semi-professional coach of student rowers at three different clubs_"
+        highlights:
+          - "Coached 30-athlete squad as Head Coach, and now second coach of a 40-athletes squad."
+          - "Coordinated with captains and assistant coaches to devise training programmes that pushes athletes while remaining inclusive and balanced."
+          - "Ran fair & open crew selection regularly, balancing performance and commitment."
+
+      - company: "Igence Radar"
+        position: "Student Engineer"
+        start_date: "2011-06"
+        end_date: "2013-09"
+        location: "Malvern, UK"
+        summary: "_A spin-off defence contractor working radar hardware & algorithms_"
+        highlights:
+          - "Validated multi-sensor tracking algorithms using robotics, C-like NXC, and MATLAB."
+          - "Enabled on-site testing of radar hardware by mocking support systems in VHDL."
+
+    projects:
+      - name: "OURCs Entries System"
+        summary: "_PHP & MySQL ported to Python & Django_"
+        highlights:
+          - "Scoped, planned & delivered a nineteen-month paid redevelopment project of a rowing competition & athlete management system."
+          - "Redesigned internal data structures & user flows to improve usability and reliable, while preserving all core functionality and removing SQL injection attack vectors."
+          - "Used for 10 events annually to this day, the largest having 200 entries & 1800 athletes."
+
+      - name: "Fantasy Bumps"
+        summary: "_Python, Django, & Celery with AWS EC2, SQS & S3_"
+        highlights:
+          - "Designed & built a fully-automated fantasy sports competition, with over 450 peak entries."
+
+    skills:
+      - label: "Leadership"
+        details: "Team Leader, Scrum Master"
+      - label: "Languages & Frameworks"
+        details: "Python, Django, Celery, NumPy, SciPy"
+      - label: "CI/CD & Tools"
+        details: "Bitbucket Pipelines, GitHub Actions, Git, Jenkins, JIRA"
+
+      - label: "Containers & IaC"
+        details: "Docker, Kubernetes, Terraform"
+      - label: "Cloud Platforms"
+        details: "AWS, GCP, Azure"
+      - label: "Databases"
+        details: "PostgreSQL, MySQL, Redis"
+      - label: "AI Tooling"
+        details: "Claude, Copilot"
+    publications:
+      - bullet: "**Academic:** Hitchen & Wells (2025a&b); Wells, Hitchen & Parkinson (2019); Hitchen & Wells (2016)"
+      - bullet: "**Patent:** \"Collision Assessment\" _US11769356B2_ Granted in USA (2023), Australia (2024), & Europe (2025)"

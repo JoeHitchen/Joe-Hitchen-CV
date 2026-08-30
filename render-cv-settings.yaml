@@ -1,0 +1,9 @@
+settings:
+  current_date: today
+  bold_keywords: []
+  pdf_title: NAME - CV
+  render_command:
+    output_folder: output
+    typst_path: .typst-cache/NAME_IN_SNAKE_CASE_CV.typ
+    dont_generate_markdown: true
+    dont_generate_png: true
