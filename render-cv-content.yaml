@@ -120,3 +120,8 @@ cv:
     publications:
       - bullet: "**Patent:** \"Collision Assessment\" _US11769356B2_ Granted in USA (2023), Australia (2024), & Europe (2025)"
       - bullet: "**Academic:** Hitchen & Wells (2025a&b); Wells, Hitchen & Parkinson (2019); Hitchen & Wells (2016)"
+
+settings:
+  render_command:
+    design: render-cv-design.yaml
+    locale: render-cv-locale.yaml
