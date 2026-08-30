@@ -1,5 +1,5 @@
 design:
-  theme: engineeringclassic
+  theme: template
   page:
     size: us-letter
     top_margin: 0.7in
