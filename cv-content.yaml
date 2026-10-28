@@ -89,12 +89,12 @@ cv:
           - "Enabled on-site testing of radar hardware by mocking support systems in VHDL."
 
     projects:
-      - name: "OURCs Entries System"
-        summary: "_PHP & MySQL ported to Python & Django_"
+      - name: "Oxford Rivers"
+        summary: "_Node, Python, Django, & Celery with AWS EC2, RDS, SQS & S3_"
         highlights:
-          - "Scoped, planned & delivered a nineteen-month paid redevelopment project of a rowing competition & athlete management system."
-          - "Redesigned internal data structures & user flows to improve usability and reliable, while preserving all core functionality and removing SQL injection attack vectors."
-          - "Used for 10 events annually to this day, the largest having 200 entries & 1800 athletes."
+          - "Built and maintain systems for real-time river monitoring based on open data from the EA & Thames Water, made fully available to the community for the public good."
+          - "Improved accuracy and precision in rowing safety management by devising an automatic, data-driven river flow measuring system; successfully driving the idea through an open RFP from University Sports Safety staff."
+          - "Enabled better outing planning by creating an AI-assisted statistical projection mechanism to predict future river condition changes."
 
       - name: "Fantasy Bumps"
         summary: "_Python, Django, & Celery with AWS EC2, SQS & S3_"
