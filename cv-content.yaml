@@ -1,6 +1,6 @@
 cv:
   name: "Joe Hitchen"
-  headline: "Chief Technical Officer & Head of Engineering"
+  headline: "Chief Technology Officer & Head of Engineering"
   location: "Oxford, UK"
   email: "hitchenjoe@gmail.com"
   phone: "+44 7812 457823"
@@ -16,28 +16,30 @@ cv:
 
   sections:
     summary:
-      - "Chief Technical Officer of a small start-up looking for opportunities to lead & grow well-operating technical teams while designing cutting edge systems.
-        Wide ranging technical skills with particular strength in Python & cloud infrastructure, built upon a background in geophysical research, a drive to solve problems, and experience in leadership roles."
+      - "Looking for a hands-on technical leadership role in a small or medium-sized business that uses technology to solve real-world problems.
+        As CTO of an insurtech start-up, I took our product from an idea to a platform supporting some of the world's largest insurers, car hire companies and fleet operators.
+        I combine practical expertise in Python & cloud infrastructure, experience building & leading teams, and the drive of a research scientist to tackle difficult problems."
 
     experience:
       - company: "Xtract360"
-        position: "Chief Technical Officer"
+        position: "Chief Technology Officer"
         start_date: "2018-08"
         end_date: "2026-09"
         location: "Remote"
-        summary: "_A small insurance technology start-up working on claims reconstruction that formed in 2017 and saw its first commercial success in early 2020._
-          _Our systems now handle 15,000 claims monthly across 35 global clients, and capture approximately 45% of the Irish motor insurance market by claim volume._"
+        summary: "_An insurance technology start-up working on claims reconstruction that formed in 2017 and found first commercial success in early 2020._
+          _Our systems now handle 15,000 claims monthly across 35 global clients (including Allianz, Avis Budget Group & Pepsi) and capture approximately 45% of the Irish motor insurance market by claim volume._"
         highlights:
           - "Architected, secured, and operationalised the company's sole commercial asset."
           - "Built & led a team of nine from scratch across five functions (development, data science, product & design, quality assurance, and technical operations), creating a loyal team culture with only one staff departure after their first anniversary over seven years."
           - "Created & drove the company's technical recruitment plan, including the simultaneous recruitment for four roles in December 2023 & January 2024, allowing us to replace external contractors and save £14,000/mo."
           - "Unblocked a £40,000/mo contract with a global top-three vehicle rental group by preparing technical & internal IT operations for SOC 2 audit within three months."
+          - "Boosted development throughput with the introduction of AI coding workflows in Cursor & Claude Code."
           - "Migrated platform infrastructure from AWS to Azure, to enable our inclusion in the Microsoft Accelerator Program, while simultaneously defining the stack in Terraform to allow robust customer data segregation through the deployment of multiple identical environments."
           - "Designed & built an asynchronous task worker stack that monitors 17,000 connected devices every hour."
           - "Implemented a product roadmap & planning function which delivered six flagship features annually, while maintaining the operational flexibility to handle urgent customer onboarding demands and continuous code/product improvement work."
           - "Improved developer productivity tracking & timesheet data quality by creating an AI tool chain which examines Jira activity and prompts developers for time allocations before feeding the data to sprint burndown & timesheet records."
           - "Completed the technical onboarding, platform configuration, and integration set-up for ten customers within two months, following the surprise departure of our Head of Onboarding."
-          - "Created technical and operational processes for managing & deploying platform changes automatically and eliminating recurring manual errors, at one point handling fourteen deployments in a week to clear an onboarding backlog."
+          - "Created technical and operational processes for managing & deploying platform changes automatically and eliminating recurring manual errors, at one point handling fourteen deployments in a week."
 
       - company: "Xtract360"
         position: "Data Scientist"
@@ -57,8 +59,8 @@ cv:
         summary: "_Title: Understanding the growth and convective instability of mushy
           layers, with application to young sea ice_"
         highlights:
-          - "Planned & executed a 4-year research project."
-          - "Developed advanced numerical simulations in Python & Matlab to corroborate parallel theoretical analysis."
+          - "Created new insight into solidification dynamics by planning and executing a 4-year research project."
+          - "Corroborated theoretical analysis by developing advanced numerical simulations in Python & Matlab."
 
       - institution: "Oxford University"
         area: "Physics"
@@ -74,9 +76,8 @@ cv:
         location: "Oxford, UK"
         summary: "_Semi-professional coach of student rowers at three different clubs_"
         highlights:
-          - "Coached 30-athlete squad as Head Coach, and now second coach of a 40-athletes squad."
-          - "Coordinated with captains and assistant coaches to devise training programmes that pushes athletes while remaining inclusive and balanced."
-          - "Ran fair & open crew selection regularly, balancing performance and commitment."
+          - "Devised training regimes that push athletes to excel as Head Coach of a 30-athlete squad, while maintaining a culture of mutual support and an open & positive club atmosphere."
+          - "Improved safety & coaching performance by leveraging AI to create automated pre-outing briefings on weather conditions, crew experience, and past coaching points."
 
       - company: "Igence Radar"
         position: "Student Engineer"
@@ -97,26 +98,25 @@ cv:
           - "Enabled better outing planning by creating an AI-assisted statistical projection mechanism to predict future river condition changes."
 
       - name: "Fantasy Bumps"
-        summary: "_Python, Django, & Celery with AWS EC2, SQS & S3_"
+        summary: "_Python, Django, & Celery with AWS EC2, RDS, SQS & S3_"
         highlights:
           - "Designed & built a fully-automated fantasy sports competition, with over 450 peak entries."
 
     skills:
       - label: "Leadership"
-        details: "Team Leader, Scrum Master"
-      - label: "Languages & Frameworks"
-        details: "Python, Django, Celery, NumPy, SciPy"
-      - label: "CI/CD & Tools"
-        details: "Bitbucket Pipelines, GitHub Actions, Git, Jenkins, JIRA"
-
+        details: "Hiring, Team Building, Roadmapping"
       - label: "Containers & IaC"
         details: "Docker, Kubernetes, Terraform"
       - label: "Cloud Platforms"
         details: "AWS, GCP, Azure"
+      - label: "CI/CD & Tools"
+        details: "Bitbucket Pipelines, GitHub Actions, Git, Jenkins, JIRA"
+      - label: "Languages & Frameworks"
+        details: "Python, Django, Celery, NumPy, SciPy, Node, React"
       - label: "Databases"
         details: "PostgreSQL, MySQL, Redis"
       - label: "AI Tooling"
-        details: "Claude, Copilot"
+        details: "Claude, Copilot, Cursor"
     publications:
       - bullet: "**Patent:** \"Collision Assessment\" _US11769356B2_ Granted in USA (2023), Australia (2024), & Europe (2025)"
       - bullet: "**Academic:** Hitchen & Wells (2025a&b); Wells, Hitchen & Parkinson (2019); Hitchen & Wells (2016)"
