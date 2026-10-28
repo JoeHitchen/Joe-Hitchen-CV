@@ -1,6 +1,6 @@
 cv:
   name: "Joe Hitchen"
-  headline: "Chief Technology Officer & Head of Engineering"
+  headline: "Chief Technology Officer & Head of Engineering || Available immediately"
   location: "Oxford, UK"
   email: "hitchenjoe@gmail.com"
   phone: "+44 7812 457823"
@@ -9,10 +9,6 @@ cv:
       username: "joehitchen"
     - network: "GitHub"
       username: "JoeHitchen"
-  custom_connections:
-    - placeholder: "bitbucket.org/JoeHitchen"
-      url: "https://bitbucket.org/JoeHitchen"
-      fontawesome_icon: "bitbucket"
 
   sections:
     summary:

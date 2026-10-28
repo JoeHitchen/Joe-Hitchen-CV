@@ -152,3 +152,31 @@
     )
   }
 }
+
+// Header headline with the availability text right-aligned on the same line.
+#let headline-with-availability(headline-text, availability-text) = {
+  metadata("skip-content-area")
+  context {
+    let config = rendercv-config.get()
+    let typography-small-caps-headline = config.at("typography-small-caps-headline")
+    let header-space-below-headline = config.at("header-space-below-headline")
+    set text(
+      fill: config.at("colors-headline"),
+      font: config.at("typography-font-family-headline"),
+      size: config.at("typography-font-size-headline"),
+      weight: if config.at("typography-bold-headline") { 700 } else { 400 },
+    )
+    let styled(content) = if typography-small-caps-headline { smallcaps(content) } else { content }
+    block(
+      grid(
+        columns: (1fr, auto),
+        column-gutter: 0.5cm,
+        align(left, styled(headline-text)),
+        align(right, styled(availability-text)),
+      ),
+      width: 100%,
+      height: auto,
+    )
+    v(header-space-below-headline, weak: true)
+  }
+}
